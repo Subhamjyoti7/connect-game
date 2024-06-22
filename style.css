@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f0f3ed ;
+}
+h1{
+    color: rgb(195, 26, 55);
+}
+#board {
+    height: 500px;
+    width: 488px;
+    background-color: g#f0f3ed ;
+    border: 5px solid rgb(21, 23, 26);
+   
+    
+    margin: auto;
+    display: flex;
+   flex-wrap: wrap;
+}
+
+.tile {
+    height: 60px;
+    width: 60px;
+    margin: 3px 2px 2px 2px;
+
+    /* Circle */
+    background-color: rgb(177, 181, 188);
+    border-radius: 50%;
+    border: 3px solid rgb(3, 22, 63);
+}
+
+
+.red-piece {
+    background-color: rgb(200, 14, 14);
+}
+
+.yellow-piece {
+    background-color:rgb(185, 226, 38);
+}
+
+#winner{
+    color: rgb(10, 212, 10);
+}
